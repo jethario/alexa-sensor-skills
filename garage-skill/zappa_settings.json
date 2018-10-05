@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "garage-temperature.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "garage-temperature",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-8z9gtmkfu"
+    }
+}

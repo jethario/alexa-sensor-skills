@@ -1,0 +1,17 @@
+{
+    "dev": {
+        "app_function": "washer-status.app",
+        "aws_region": "us-west-2",
+        "profile_name": "default",
+        "project_name": "washer-skill",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-uoo91fsq5",
+        "timeout_seconds": 30,
+        "memory_size": 2048,
+        "extra_permissions": [{ 
+            "Effect": "Allow",
+            "Action": ["cloudwatch:*"],
+            "Resource": "*"
+        }]
+    }
+}
